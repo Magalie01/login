@@ -1,5 +1,6 @@
-@media (min-width: 320px) and  (max-width: 600px){
-body{
+@media only screen and (min-width: 360px) and (max-width: 767px) 
+{
+  body{
     margin: 0;
     padding: 0;
     height: 100vh;
@@ -138,3 +139,9 @@ a{
     text-decoration: none;
     color: #ecf0f1;
 }
+ nav{
+   height: 10vh;
+   width: 100%;
+   background-color: #121212;
+   position: absolute;
+ }
